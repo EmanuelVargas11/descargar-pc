@@ -1,0 +1,57 @@
+/* fuentes*/
+
+
+
+
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 8px;
+    background: #c6c8c7;
+}
+body::-webkit-scrollbar-thumb{
+    background: #FD8A8A;
+    border-radius: 40px;
+    
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #e44545;
+    
+}
+
+/* titulo */
+
+#titulo_prin {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 80px;
+    color: rgb(246, 246, 246);
+    background-color: #2c2929;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+/* imagen*/
+
+.imagen_p {
+    width: 300px ;
+    height: 300px;    
+}
+.contain {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* pie de pagina*/
+
+.pie_de_pagina  div {
+    width: 20px;
+    height: 20px;
+    background-repeat: cover;
+    
+}
+
+
+

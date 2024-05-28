@@ -1,0 +1,36 @@
+.content {
+    color: #ff0000;
+}
+
+.texto {
+    display: inline;
+}
+.text {
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid #ff0000;
+    color: #0fddd2;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.text:hover {
+    color: bisque;
+    background-color: #0fddd2;
+    transition: 0.3s;
+}
+
+.clase1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: dotted;
+}
+.clase1:hover {
+    color: #15fc34;
+}
